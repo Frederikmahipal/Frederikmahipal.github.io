@@ -1,8 +1,7 @@
-body{
+html,body{
     color: white;
     margin: 0%;
     text-align: center;
-    justify-content: center;
     background-color: dodgerblue;
 }
 

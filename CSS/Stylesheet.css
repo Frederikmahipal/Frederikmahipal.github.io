@@ -5,9 +5,16 @@ body{
     background-color: dodgerblue;
 }
 
+li{
+    display: inline;
 
-.topbar {
+}
+
+#topbar {
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
@@ -15,4 +22,8 @@ body{
     display: flex;
     justify-content: center;
     align-content: flex-end;
+}
+
+#mid{
+
 }

@@ -4,3 +4,15 @@ body{
     text-align: center;
     background-color: dodgerblue;
 }
+
+
+.topbar {
+    overflow: hidden;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}

@@ -1,37 +1,6 @@
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: teal;
-    color: #fff;
-    border-radius: 25px;
-}
-.nav-links a {
-    color: #fff;
-}
-/* LOGO */
-.logo {
-    font-size: 32px;
-}
-/* NAVBAR MENU */
-.menu {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
-}
-.menu li:hover {
-    background-color: #4c9e9e;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-.menu li {
-    padding: 5px 14px;
-}
-
 body {
-    background-color: cadetblue;
+    background-color: darkslategrey;
+
 }
 
 .tooltip {
@@ -42,28 +11,15 @@ body {
 
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-
-    background-color: transparent;
-    color: black;
-    text-align: center;
-
-    border-radius: 6px;
-
-
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 
 .aboutText{
     display: flex;
     justify-content: center;
+    color: lightgrey;
 }
+
+Ul.aboutText{
+    justify-content: space-around;
+    color: lightgrey;
+}
+

@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-color: dimgrey;
 
 }
 
@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: center;
     color: lightgrey;
+    position: relative;
+
 }
 
 Ul.aboutText{

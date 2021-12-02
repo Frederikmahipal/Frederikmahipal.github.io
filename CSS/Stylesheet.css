@@ -24,6 +24,27 @@ a {
     border-bottom: 1px solid #E2E8F0;
 }
 
+.box {
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+    width: 100px;
+    height: 100px;
+}
+
+#projects{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
 .center{
     font-size: 20px;
     position: absolute;
@@ -46,7 +67,4 @@ a {
     display: flex;
     font-size: 16px;
     justify-content: space-around;
-
-
-
 }

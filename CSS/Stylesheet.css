@@ -1,27 +1,52 @@
-body {
-    background-color: dimgrey;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.tooltip {
-    position: relative;
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.center{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+#projects{
+    margin: auto;
+    font-size: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
 
-
-.aboutText{
+.container{
     display: flex;
-    justify-content: center;
-    color: lightgrey;
-    position: relative;
-
-}
-
-Ul.aboutText{
+    font-size: 16px;
     justify-content: space-around;
-    color: lightgrey;
-}
 
+
+
+}

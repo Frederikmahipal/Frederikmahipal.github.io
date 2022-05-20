@@ -1,5 +1,4 @@
-// Code By Webdevtrick ( https://webdevtrick.com )
-// Review Loop
+
 function fade($ele) {
     $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
         var $next = $(this).next('.quote');
@@ -7,8 +6,6 @@ function fade($ele) {
    });
 }
 fade($('.quoteLoop > .quote').first());
-
-// Navigation
 
 $(window).scroll(function() {
 
@@ -35,7 +32,7 @@ $('.main_nav li a').click(function() {
     }
 });
 
-// Smooth Scrolling
+
 
 jQuery(document).ready(function($) {
 
